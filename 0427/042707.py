@@ -1,0 +1,10 @@
+l=list(range(1,5,1))
+print(l)
+import numpy as np
+arr=np.arange(start=1,stop=5,step=0.5)
+print(arr)
+print(arr.dtype)
+arr=arr.astype(np.int32)
+print(arr)
+print(arr.itemsize)
+print(arr.nbytes)

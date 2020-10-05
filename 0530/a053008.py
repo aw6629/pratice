@@ -1,0 +1,10 @@
+from selenium import webdriver
+driver= webdriver.Chrome()
+driver.get('http:localhost:5000')
+id_elem=driver.find_element_by_name('id')
+id_elem.send_keys(1)
+name_elem=driver.find_element_by_name('name')
+name_elem.send_keys('AAAA')
+name_elem.submit()
+print(driver.current_url)
+print(driver.page_source)

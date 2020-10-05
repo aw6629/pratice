@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.arange(1,10).reshape(3,3)
+print(arr)
+print(arr[:2,1:],arr[:2,1:].shape)
+print(arr[2],arr[2].shape)
+print(arr[2,:],arr[2,:].shape)
+print(arr[2:,:],arr[2:,:].shape)
+print(arr[:,:2],arr[:,:2].shape)
+print(arr[1,:2],arr[1,:2].shape)
+print(arr[1:2,:2],arr[1:2,:2].shape)
